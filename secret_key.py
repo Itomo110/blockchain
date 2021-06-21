@@ -79,7 +79,8 @@ def matrix_format(split_lists:list):
 
 def matrix_print(key_num:int,splits_num:int):
     """
-    
+    全てを求めたもの
+    秘密鍵から2進数変換したものを行列に変換したもの
     """
     line = full_bin_line(key_num)
     int_line = list_converter(line)
